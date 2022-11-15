@@ -1,0 +1,269 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Open Sans', 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(88, 196, 231);
+	/* background: -moz-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,62,95,1)), color-stop(100%, rgba(42,34,64,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2a2240', GradientType=1 ); */
+	
+	padding-top: 100px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	/* margin-top: 176px; */
+	width: 490px;
+}
+
+.title {
+	font-size: 32px;
+}
+
+.title span {
+	font-size: 60px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: yellow;
+	color: black;
+	display: block;
+	width: 205px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #312ed1;
+}
+
+.desktop-icon {
+	margin: 0 auto;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+.future {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 70px;
+
+}
+
+
+
+.future-event-free-time {
+	background: url('../img/icon1.png') no-repeat center top;
+	width: 289px;
+	padding: 80px 0 30px 0;
+}
+
+.future-event-title {
+	font-size: 18px;
+}
+
+.future-event-text {
+	margin-top: 7px;
+}
+
+.future-event-bright-travel {
+	background: url('../img/icon2.png') no-repeat center top;
+	width: 289px;
+	padding: 80px 0 30px 0;
+
+}
+
+.future-event-value-creation {
+	background: url('../img/icon3.png') no-repeat center top;
+	width: 289px;
+	padding: 80px 0 30px 0;
+
+}
+
+.mail {
+	background: #eef7f7;
+	padding-top: 173px;
+	padding-bottom: 190px;
+}
+
+.form {
+	margin-top: 40px;
+}
+
+.input {
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 400px;
+	height: 54px;
+	border: 1px solid #ded8ec;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	padding-left: 30px;
+}
+
+.btn-form {
+	/* display: inline; */
+	display: block;
+	margin: auto;
+	border: 0;
+	cursor: pointer;
+	width: 400px;
+	height: 54px;
+	font-size: 17px;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #2b5cb8;
+}
+
+.credits {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+
+/* от 992px до 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 	960px;
+	}
+}
+
+/* от 768px до 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.offer{
+		width: 100%;
+	}
+	.desktop-icon{
+		display: block;
+		margin: 40px auto 0;
+
+	}
+	.intro{
+		width: auto;
+	}
+
+}
+
+/* от 576ppx до 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+
+	.future{
+		flex-direction: column;
+	}
+
+	.future-event-free-time {
+		margin: auto;
+	}
+
+	.future-event-bright-travel {
+		margin: auto;
+	}
+
+	.future-event-value-creation {
+		margin: auto;
+	}
+}
+
+/* от 320px до 576ppx */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.btn{
+		width: 100%;
+
+	}
+	.btn-form{
+		width: 90%;
+	}
+
+	.desktop-icon{
+		width: 100%;
+
+	}
+	.input{
+		width: 90%;
+		
+	}
+
+}
+
+
+
+
+
+

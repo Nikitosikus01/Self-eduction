@@ -1,0 +1,34 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+
+h1{
+    color: red;
+
+}
+
+.p-bg-blue{
+    color: white;
+    background-color:blue;
+    width: 110px;
+    margin-bottom: 100px;
+}
+
+h2{
+    background-color: green;
+    color: white;
+}
+
+.h2-second{
+    padding: 50px;
+}
+
+li{
+    border: 1px solid;
+    font-size: large;
+}
+
