@@ -1,15 +1,4 @@
 
-/* 
-    Задание:
-
-    Доделать tabs с урока
-
-    1. Переписать код tabs с урока по видео
-    2. Внутри третьей вкладки добавить функционал табов. Количество вкладок: 2. Контент внутри - на ваш вкус 
-
-*/
-
-
 
 const tabBtns = document.getElementById('tabs'); 
 const content = document.querySelectorAll('.content'); 
